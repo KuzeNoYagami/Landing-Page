@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container styling */
+.landing-page {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEhEG2U-U9zyc-PtrrxXAzXI-X1OXKZX9tgd-nsrvJQ8ajQGbooHqln5A6e5TJBaxbmcpYUGm7IF_q5xJ6cM-8CBsbiRxtZ8QEQZwJK4pryh4Sa3USCANQtQ-ViwToZiSQfb2mKa85ilvbx6xmlIB1-PzRMuctijY_m0CX3zveF3X5PR4AN0omq9yUO2qg=s1600-rw"); /* Placeholder image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Header styling */
+header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: white;
+  border-radius: 20px;
+}
+
+/* Main content styling */
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.main-content button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #ff5a5f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-content button:hover {
+  background-color: #ff767c;
+}
